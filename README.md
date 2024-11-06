@@ -25,11 +25,14 @@ To install the required libraries, run the following:
 ```bash
 pip install opencv-python numpy
 ```
-Usage
+##Usage
 1. Capture Face Images
 To capture face images for training, run the capture_faces.py script. This will use your webcam to capture images and store them in the dataset/ folder.
+```bash
+python capture_faces.py
+```
 
-2. Train the Face Recognition Model
+3. Train the Face Recognition Model
 Once you have collected face images, train the recognition model by running the train.py script.
 ```bash
 python train.py
