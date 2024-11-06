@@ -14,7 +14,17 @@ This project is a Python-based system for detecting and recognizing faces using 
 
 ## Project Structure
 
-face_prediction/ │ ├── capture_faces.py # Script to capture face images and store them in the dataset ├── face_prediction.py # Script to recognize faces in real-time or from saved images ├── train.py # Script to train the face recognition model ├── haarcascade_frontalface_default.xml # Pre-trained face detection model (Haar Cascade) ├── names.json # JSON file for mapping recognized faces to names ├── dataset/ # Directory to store face images for training ├── images/ # Directory for storing test images ├── trainer/ # Directory to store trained model files
+face_prediction/
+│
+├── capture_faces.py                # Script to capture face images and store them in the dataset
+├── face_prediction.py              # Script to recognize faces in real-time or from saved images
+├── train.py                        # Script to train the face recognition model
+├── haarcascade_frontalface_default.xml # Pre-trained face detection model (Haar Cascade)
+├── names.json                      # JSON file for mapping recognized faces to names
+├── dataset/                        # Directory to store face images for training
+├── images/                         # Directory for storing test images
+├── trainer/                        # Directory to store trained model files
+
 
 ## Prerequisites
 
