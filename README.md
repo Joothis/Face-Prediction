@@ -1,4 +1,4 @@
-Face Detection and Recognition System
+##Face Detection and Recognition System##
 Overview
 This project is a Python-based system for detecting and recognizing faces using OpenCV. It can capture face images, train a face recognition model, and recognize individuals in real-time or from saved images. The system is designed for simplicity and accuracy, leveraging powerful computer vision algorithms to identify human faces.
 
