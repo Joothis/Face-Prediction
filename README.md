@@ -12,18 +12,6 @@ This project is a Python-based system for detecting and recognizing faces using 
 - **Real-Time Face Recognition**: Recognizes faces in real-time by comparing detected faces against the trained model.
 - **Name Mapping**: Matches recognized faces to their corresponding names stored in a JSON file.
 
-## Project Structure
-
-face_prediction/
-│
-├── capture_faces.py                # Script to capture face images and store them in the dataset
-├── face_prediction.py              # Script to recognize faces in real-time or from saved images
-├── train.py                        # Script to train the face recognition model
-├── haarcascade_frontalface_default.xml # Pre-trained face detection model (Haar Cascade)
-├── names.json                      # JSON file for mapping recognized faces to names
-├── dataset/                        # Directory to store face images for training
-├── images/                         # Directory for storing test images
-├── trainer/                        # Directory to store trained model files
 
 
 ## Prerequisites
