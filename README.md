@@ -32,7 +32,7 @@ To capture face images for training, run the capture_faces.py script. This will 
 python capture_faces.py
 ```
 
-3. Train the Face Recognition Model
+2. Train the Face Recognition Model
 Once you have collected face images, train the recognition model by running the train.py script.
 ```bash
 python train.py
